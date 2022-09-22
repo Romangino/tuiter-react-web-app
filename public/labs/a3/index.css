@@ -1,10 +1,12 @@
 /*p {
  background-color: blue;
  color: white;}*/
+
 p#id-selector-1 {
     background-color: red;
     color: white;
 }
+
 p#id-selector-2 {
     background-color: yellow;
     color: black;
@@ -19,53 +21,86 @@ p#id-selector-2 {
     background-color: red;
     color: white;
 }
+
 .selector-2 > .selector-3 > .selector-4 {
     background-color: yellow;
     color: blue;
 }
 
-.fg-color-black { color: black; }
-.fg-color-white { color: white; }
-.fg-color-blue { color: #7070ff; }
-.fg-color-red { color: #ff7070; }
-.fg-color-green { color: green; }
+.fg-color-black {
+    color: black;
+}
+
+.fg-color-white {
+    color: white;
+}
+
+.fg-color-blue {
+    color: #7070ff;
+}
+
+.fg-color-red {
+    color: #ff7070;
+}
+
+.fg-color-green {
+    color: green;
+}
 
 .bg-color-yellow {
     background-color: #ffff07;
 }
+
 .bg-color-blue {
     background-color: #7070ff;
 }
+
 .bg-color-red {
     background-color: #ff7070;
 }
+
 .bg-color-green {
     background-color: green;
 }
 
 .border-fat {
-    border-width: 20px 30px 20px 30px; }
+    border-width: 20px 30px 20px 30px;
+}
+
 .border-thin {
-    border-width: 4px; }
+    border-width: 4px;
+}
+
 .border-solid {
-    border-style: solid; }
+    border-style: solid;
+}
+
 .border-dashed {
-    border-style: dashed; }
+    border-style: dashed;
+}
+
 .border-yellow {
-    border-color: #ffff07; }
+    border-color: #ffff07;
+}
+
 .border-red {
-    border-color: #ff7070; }
+    border-color: #ff7070;
+}
+
 .border-blue {
-    border-color: #7070ff; }
+    border-color: #7070ff;
+}
 
 .padded-top-left {
     padding-top: 50px;
     padding-left: 50px;
 }
+
 .padded-bottom-right {
     padding-bottom: 50px;
     padding-right: 50px;
 }
+
 .padding-fat {
     padding: 50px;
 }
@@ -73,10 +108,12 @@ p#id-selector-2 {
 .margin-bottom {
     margin-bottom: 50px;
 }
+
 .margin-right-left {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .margin-all-around {
     margin: 30px;
 }
@@ -114,16 +151,34 @@ p#id-selector-2 {
     height: 75px;
 }
 
+.pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.pos-relative-nudge-down-right {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
 .pos-absolute-10-10 {
     position: absolute;
     top: 10px;
     left: 10px;
 }
+
 .pos-absolute-50-50 {
     position: absolute;
     top: 50px;
     left: 50px;
 }
+
 .pos-absolute-120-20 {
     position: absolute;
     top: 20px;
@@ -161,6 +216,7 @@ p#id-selector-2 {
     width: 50%;
     float: left;
 }
+
 .grid-col-third-page {
     width: 33%;
     float: left;
