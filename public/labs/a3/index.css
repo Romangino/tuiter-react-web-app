@@ -255,6 +255,13 @@ p#id-selector-2 {
     color: white;
 }
 
+.rotate-list-counter-clockwise {
+    transform: rotate(-12deg);
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
 .rotate-list-items li {
     width: 100px;
     text-align: right;
@@ -324,7 +331,7 @@ p#id-selector-2 {
 .gradients-positioned {
     background:
             radial-gradient(
-                    at top left, black, darkgreen);
+                    at bottom right, black, darkgreen);
     width: 200px;
     height: 200px;
     color: white;
@@ -336,7 +343,7 @@ p#id-selector-2 {
     animation-duration: 10s;
     animation-name: slidein;
     animation-direction: alternate;
-    /*animation-iteration-count: 10;*/
+    animation-iteration-count: infinite;
     width: 300px;
     height: 200px;
     background-color: black;
