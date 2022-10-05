@@ -21,22 +21,10 @@ Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-inpu
     background-color: black;
 }
 
-.wd-fg-color-black {
-    color: black
-}
-
 .wd-magnifying-glass {
     bottom: 5px;
     left: 33px;
     color: #5e666d
-}
-
-.wd-fg-white {
-    color: white;
-}
-
-.wd-bg-white {
-    background-color: white
 }
 
 .wd-icon-selected {
@@ -67,7 +55,6 @@ Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-inpu
 
 .wd-nav-tabs {
     color: #60676e;
-    border-bottom: red
 }
 
 .wd-follow-button {

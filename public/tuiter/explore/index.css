@@ -3,8 +3,8 @@ Taken from stackoverflow
 Source: https://stackoverflow.com/questions/16084209/how-can-i-disable-the-bootstrap-hover-color-for-links
 */
 a:hover {
-    color: #5e666d !important;
-    background-color: #eff3f4 !important;
+    color: #5c6269 !important;
+    background-color: #ecf0f1 !important;
 }
 
 /*
@@ -23,7 +23,7 @@ Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-inpu
 
 
 .wd-magnifying-glass {
-    bottom: 7px;
+    bottom: 10px;
     left: 25px;
     color: #5e666d
 }
