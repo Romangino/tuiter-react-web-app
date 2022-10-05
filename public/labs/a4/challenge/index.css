@@ -3,28 +3,31 @@ Taken from stackoverflow
 Source: https://stackoverflow.com/questions/16084209/how-can-i-disable-the-bootstrap-hover-color-for-links
 */
 a:hover {
-    color: #5e666d !important;
-    background-color: #eff3f4 !important;
+    color: white !important;
+    text-decoration: none;
+    background-color: #212327 !important;
 }
 
 /*
 Taken from StackOverflow
 Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-input-change-background-color-on-text-enter-and-revert-on-empty-f
 */
-/*.form-control:valid {*/
-/*    background-color: #212327 !important;*/
-/*    color: white !important;*/
-/*}*/
-
-.wd-sidebar-active {
-    background-color: rgb(29, 161, 242);
-    color: white;
+.form-control:valid {
+    background-color: #212327 !important;
+    color: white !important;
 }
 
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-fg-color-black {
+    color: black
+}
 
 .wd-magnifying-glass {
-    bottom: 7px;
-    left: 25px;
+    bottom: 5px;
+    left: 33px;
     color: #5e666d
 }
 
@@ -52,15 +55,34 @@ Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-inpu
     background-color: rgb(29, 161, 242);
 }
 
-.wd-nav-tabs {
-    color: rgb(29, 161, 242);
-}
-
-.wd-follow-button {
-    background-color: rgb(29, 161, 242);
+.wd-search-bar {
+    background-color: #212327;
     border: none;
 }
 
+.wd-nav-bar {
+    border-bottom: none;
+    border-color: #212327;
+}
+
+.wd-nav-tabs {
+    color: #60676e;
+    border-bottom: red
+}
+
+.wd-follow-button {
+    background-color: white;
+    color: black;
+    border: none
+}
+
+.wd-main-content {
+    border-style: solid;
+    border-color: #212327;
+    border-width: 1px;
+    border-top: none;
+    border-bottom: none;
+}
 
 .wd-border-grey {
     border-style: solid;
