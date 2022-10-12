@@ -1,3 +1,5 @@
+/* eslint-env jquery */
+
 // alert('Hello World!');
 
 console.log('Hello World!');

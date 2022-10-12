@@ -1,5 +1,5 @@
 import TodoList from "./TodoList.js";
-
+/* eslint-env jquery */
 // alert('Hello World!');
 
 $('#wd-todo').append(`

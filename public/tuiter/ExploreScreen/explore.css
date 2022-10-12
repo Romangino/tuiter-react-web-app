@@ -21,6 +21,10 @@ Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-inpu
     color: white;
 }
 
+.wd-search-bar {
+    background-color: #212327;
+    border: none;
+}
 
 .wd-magnifying-glass {
     bottom: 7px;
