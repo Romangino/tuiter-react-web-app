@@ -13,7 +13,7 @@ const WhoToFollowListItem = (who) => {
                     <i class="fa-solid fa-certificate"></i>
                 </div>
                 <div class="text-secondary small">
-                    ${who.handle}
+                    @${who.handle}
                 </div>
             </div>
             <div class="col-xxl-3 col-xl-4 col-lg-4 d-flex align-items-center">

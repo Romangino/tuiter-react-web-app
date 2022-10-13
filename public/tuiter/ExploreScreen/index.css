@@ -16,11 +16,6 @@ Source: Source: https://stackoverflow.com/questions/48258115/bootstrap-form-inpu
 /*    color: white !important;*/
 /*}*/
 
-.wd-sidebar-active {
-    background-color: rgb(29, 161, 242);
-    color: white;
-}
-
 .wd-search-bar {
     background-color: #212327;
     border: none;
