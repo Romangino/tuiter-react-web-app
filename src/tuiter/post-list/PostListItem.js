@@ -13,7 +13,8 @@ const PostListItem = (
             replyTuit: [false, {}],
             comments: '595',
             retuits: '1168',
-            likes: '11.1K'
+            likes: '11.1K',
+            showThread: true
         }
     }
 ) => {
@@ -38,7 +39,7 @@ const PostListItem = (
                         <span className='ps-0 fw-bold'>
                             {post.userName}
                             <span className='ps-1'>
-                                <i className='bi bi-patch-check-fill'></i>
+                                <i className='bi bi-patch-check-fill text-primary'/>
                             </span>
                             <span className='fw-normal text-secondary ps-1'>
                                 {post.handle}
@@ -74,7 +75,8 @@ const PostListItem = (
                                     <div className='col-11 ps-0 fw-bold'>
                                         {post.replyTuit[1].userName}
                                         <span className='ps-1'>
-                                            <i className='bi bi-patch-check-fill'></i>
+                                            <i
+                                               className='bi bi-patch-check-fill text-primary'></i>
                                         </span>
                                         <span className='ps-1 text-secondary fw-normal'>
                                             {post.replyTuit[1].handle}
@@ -117,9 +119,13 @@ const PostListItem = (
                             <div className='col'>
                                 <i className='ps-3 bi bi-upload'></i>
                             </div>
-                            <div className=''>
-
-                            </div>
+                        </div>
+                        <div className={post.showThread ? 'ps-0 pt-3': 'd-none'}>
+                            <a style={{textDecoration: 'none'}}
+                               href=''
+                                className='text-primary mb-0'>
+                                Show this Thread
+                            </a>
                         </div>
                     </div>
                 </div>
