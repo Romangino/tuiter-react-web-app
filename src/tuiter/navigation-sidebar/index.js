@@ -19,7 +19,7 @@ const NavigationSidebar = () => {
                 <span className='d-none d-xl-inline'>{' '}Home</span>
             </Link>
             <Link to="/tuiter/explore" className={`list-group-item 
-            ${active === 'explore' || active === '' ? 'active' : ''}`}>
+            ${active === 'explore' ? 'active' : ''}`}>
                 <i className='bi bi-hash'></i>
                 <span className='d-none d-xl-inline'>{' '}Explore</span>
             </Link>
