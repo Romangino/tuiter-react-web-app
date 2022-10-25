@@ -15,11 +15,11 @@ const PostSummaryItem = (
             <div className="row">
                 <div className="col-10">
                     <div>
-                        {post.userName}
+                        {post.topic}
                         <i className='bi bi-dot'></i>
                         {post.time}
                     </div>
-                    <div className="fw-bolder">{post.topic}</div>
+                    <div className="fw-bolder">{post.userName}</div>
                     <div>{post.title}</div>
                 </div>
                 <div className="col-2">
