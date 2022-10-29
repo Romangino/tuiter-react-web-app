@@ -1,5 +1,7 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
 
 const TuitItem = (
     {
@@ -19,6 +21,10 @@ const TuitItem = (
         }
     }
 ) => {
+    const dispatch = useDispatch()
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
     return(
         <div className={'border border-secondary border-opacity-25 border-bottom-0'}>
             <div className={'row pt-2 ps-3 pe-2'}>
@@ -29,6 +35,8 @@ const TuitItem = (
                          src={tuit.image} alt=""/>
                 </div>
                 <div className='col-11'>
+                    <i className={"bi bi-x-lg float-end"}
+                       onClick={() => deleteTuitHandler(tuit._id)}></i>
                     <div className='row ps-4'>
                         <span className='ps-0 fw-bold'>
                             {tuit.userName}
