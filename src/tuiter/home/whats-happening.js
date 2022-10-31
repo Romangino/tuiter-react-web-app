@@ -1,8 +1,9 @@
 import React, {useState} from "react";
-import {createTuit} from "../tuits/tuits-reducer";
-import {useDispatch} from "react-redux";
+import {createTuit} from "../reducers/tuits-reducer";
+import {useDispatch, useSelector} from "react-redux";
 
 const WhatsHappening = () => {
+    const profile = useSelector(state => state.profile)
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
@@ -14,8 +15,8 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto">
-                <img className={'rounded-circle'}
-                    src="/images/dog-profile.jpg" width={60} height={60}/>
+                <img className={'rounded-circle'} width={60} height={60}
+                    src={`/images/${profile.profilePicture}`} alt={""} />
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"

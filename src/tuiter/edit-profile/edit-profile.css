@@ -1,0 +1,37 @@
+.wd-edit-profile-cancel {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.wd-edit-profile-banner {
+    height: 250px;
+    opacity: 0.5;
+}
+
+.wd-edit-profile-icon {
+    width: 150px;
+    height: 150px;
+    bottom: -10%;
+    left: 5%;
+    opacity: 0.8;
+    border: solid white;
+}
+
+.wd-edit-profile-image-upload {
+    opacity: .7;
+    left: 40%;
+    bottom: 40%;
+}
+
+.wd-edit-profile-image-cancel {
+    opacity: .7;
+    left: 50%;
+    bottom: 40%;
+}
+
+.wd-edit-profile-icon-image-upload {
+    opacity: .7;
+    left: 11%;
+    bottom: 60%;
+}

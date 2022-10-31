@@ -1,8 +1,8 @@
 import {createSlice} from "@reduxjs/toolkit";
-import tuits from "./tuits.json"
+import tuits from "../tuits/tuits.json"
 
 const currentUser = {
-    "userName": "Dog",
+    "userName": "Cool Dog",
     "handle": "@coolDog",
     "image": "/images/dog-profile.jpg",
 };
@@ -10,7 +10,7 @@ const currentUser = {
 const templateTuit = {
     ...currentUser,
     "topic": "Animals",
-    "time": "Just now",
+    "time": "2h",
     "liked": false,
     "replies": 0,
     "retuits": 0,
